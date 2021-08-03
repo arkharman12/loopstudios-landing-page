@@ -23,6 +23,7 @@ html {
 }
 
 body {
+    font-family: var(--alata);
     font-size: 15px;
 }
 
@@ -50,7 +51,6 @@ body {
 }
 
 .nav-links li a {
-    font-family: var(--alata);
     text-decoration: none;
     margin-left: 30px;
     color: var(--white);
@@ -78,8 +78,217 @@ body {
     width: 85%;
     max-width: 1100px;
     margin: 0 auto;
+    border: 2px solid pink;
+    position: relative;
+}
+
+.vr-wrapper img {
+    width: 675px;
+    height: auto;
+    padding: 100px 0 100px 0;
 }
 
 .vr-text-wrapper {
-    background: red;
+    font-family: var(--josefin-sans);
+    color: var(--black);
+    background: var(--white);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    padding: 80px 0 80px 80px;
+}
+
+.vr-text-wrapper h3 {
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.vr-text-wrapper p {
+    font-family: var(--alata);
+    color: var(--dark-gray);
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+/* Creations styles */
+.creations-wrapper {
+    font-family: var(--josefin-sans);
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 2px solid pink;
+}
+
+.creations-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.creations-heading h3 {
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.creations-heading a {
+    font-family: var(--alata);
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--black);
+    border: 2px solid var(--very-dark-gray);
+    text-transform: uppercase;
+    padding: 8px 28px 8px 28px;
+    letter-spacing: 3px;
+}
+
+/* The Grid styles */
+.creations-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card-one {
+    color: var(--white);
+    background: url("./images/desktop/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.card-one h3 {
+    position: absolute;
+    font-size: 32px;
+    text-transform: uppercase;
+    top: 80%;
+    left: 20%;
+    max-width: 130px;
+}
+
+.card-two {
+    color: var(--white);
+    background: url("./images/desktop/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.card-two h3 {
+    position: absolute;
+    font-size: 32px;
+    text-transform: uppercase;
+    top: 80%;
+    left: 20%;
+    max-width: 130px;
+}
+
+.card-three {
+    color: var(--white);
+    background: url("./images/desktop/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    position: relative
+}
+
+.card-three h3 {
+    position: absolute;
+    font-size: 32px;
+    text-transform: uppercase;
+    top: 80%;
+    left: 20%;
+    max-width: 160px;
+}
+
+.card-four {
+    color: var(--white);
+    background: url("./images/desktop/image-grid.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.card-four h3 {
+    position: absolute;
+    font-size: 32px;
+    text-transform: uppercase;
+    top: 80%;
+    left: 20%;
+    max-width: 130px;
+}
+
+.card-five {
+    color: var(--white);
+    background: url("./images/desktop/image-from-above.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.card-five h3 {
+    position: absolute;
+    font-size: 32px;
+    text-transform: uppercase;
+    top: 80%;
+    left: 20%;
+    max-width: 170px;
+}
+
+.card-six {
+    color: var(--white);
+    background: url("./images/desktop/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.card-six h3 {
+    position: absolute;
+    font-size: 32px;
+    text-transform: uppercase;
+    top: 80%;
+    left: 20%;
+    max-width: 170px;
+}
+
+.card-seven {
+    color: var(--white);
+    background: url("./images/desktop/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.card-seven h3 {
+    position: absolute;
+    font-size: 32px;
+    text-transform: uppercase;
+    top: 80%;
+    left: 20%;
+    max-width: 170px;
+}
+
+.card-eight {
+    color: var(--white);
+    background: url("./images/desktop/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.card-eight h3 {
+    position: absolute;
+    font-size: 32px;
+    text-transform: uppercase;
+    top: 80%;
+    left: 20%;
+    max-width: 170px;
 }
